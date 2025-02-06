@@ -3,7 +3,7 @@ global:
 
 apiserver:
   # -- Number of replicas for the API Server
-  replicas: 1
+  replicaCount: 1
 
   database:
     postgresql:
@@ -91,7 +91,7 @@ apiserver:
 orchestrator:
   # -- Number of replicas for the Orchestrator service
   # Currently 1 supported.
-  replicas: 1
+  replicaCount: 1
 
   image:
     # -- Orchestrator image registry
@@ -259,7 +259,7 @@ orchestrator:
 
 ui:
   # -- Number of replicas for the UI service
-  replicas: 1
+  replicaCount: 1
 
   image:
     # -- UI image registry
@@ -317,7 +317,7 @@ ui:
 
 uibackend:
   # -- Number of replicas for the UI Backend service
-  replicas: 1
+  replicaCount: 1
 
   image:
     # -- UI Backend image registry
@@ -378,7 +378,7 @@ uibackend:
 
 gateway:
   # -- Number of replicas for the gateway
-  replicas: 1
+  replicaCount: 1
 
   image:
     # -- Gateway service container registry
@@ -552,7 +552,7 @@ postgresql:
 
 exploitDBServer:
   # -- Number of replicas for the exploit-db-server service
-  replicas: 1
+  replicaCount: 1
 
   image:
     # -- Exploit DB Server container registry
@@ -610,7 +610,7 @@ exploitDBServer:
 
 trivyServer:
   # -- Number of replicas for the trivy server service
-  replicas: 1
+  replicaCount: 1
 
   image:
     # -- Trivy Server container registry
@@ -668,7 +668,7 @@ trivyServer:
 
 grypeServer:
   # -- Number of replicas for the grype server service
-  replicas: 1
+  replicaCount: 1
 
   image:
     # -- Grype server container registry
@@ -729,7 +729,7 @@ grypeServer:
 
 freshclamMirror:
   # -- Number of replicas for the freshclam mirror service
-  replicas: 1
+  replicaCount: 1
 
   image:
     # -- Freshclam Mirror container registry
@@ -787,7 +787,7 @@ freshclamMirror:
 
 swaggerUI:
   # -- Number of replicas for the swagger-ui service
-  replicas: 1
+  replicaCount: 1
 
   image:
     # -- Swagger UI container registry
@@ -845,7 +845,7 @@ swaggerUI:
 
 yaraRuleServer:
   # -- Number of replicas for the Yara Rule Server service
-  replicas: 1
+  replicaCount: 1
 
   image:
     # -- Yara Rule Server container registry

@@ -53,7 +53,7 @@ secrets.
 | apiserver.logLevel | string | `"info"` | API Server log level |
 | apiserver.podSecurityContext.enabled | bool | `true` | Pod security context enabled |
 | apiserver.podSecurityContext.fsGroup | int | `1001` | Pod security context fsGroup |
-| apiserver.replicas | int | `1` | Number of replicas for the API Server |
+| apiserver.replicaCount | int | `1` | Number of replicas for the API Server |
 | apiserver.resources.limits | object | `{}` | The resources limits for the apiserver containers |
 | apiserver.resources.requests | object | `{}` | The requested resources for the apiserver containers |
 | apiserver.serviceAccount.automountServiceAccountToken | bool | `false` | Allows auto mount of ServiceAccountToken on the serviceAccount created. Can be set to false if pods using this serviceAccount do not need to use K8s API. |
@@ -117,7 +117,7 @@ secrets.
 | exploitDBServer.image.tag | string | `"v0.3.0"` | Exploit DB Server container tag |
 | exploitDBServer.podSecurityContext.enabled | bool | `true` | Pod security context enabled |
 | exploitDBServer.podSecurityContext.fsGroup | int | `1001` | Pod security context fsGroup |
-| exploitDBServer.replicas | int | `1` | Number of replicas for the exploit-db-server service |
+| exploitDBServer.replicaCount | int | `1` | Number of replicas for the exploit-db-server service |
 | exploitDBServer.resources.limits | object | `{}` | The resources limits for the exploit-db-server containers |
 | exploitDBServer.resources.requests | object | `{}` | The requested resources for the exploit-db-server containers |
 | exploitDBServer.serviceAccount.automountServiceAccountToken | bool | `false` | Allows auto mount of ServiceAccountToken on the serviceAccount created. Can be set to false if pods using this serviceAccount do not need to use K8s API. |
@@ -138,7 +138,7 @@ secrets.
 | freshclamMirror.image.tag | string | `"v0.3.1"` | Freshclam Mirror container tag |
 | freshclamMirror.podSecurityContext.enabled | bool | `false` | Pod security context enabled |
 | freshclamMirror.podSecurityContext.fsGroup | int | `1001` | Pod security context fsGroup |
-| freshclamMirror.replicas | int | `1` | Number of replicas for the freshclam mirror service |
+| freshclamMirror.replicaCount | int | `1` | Number of replicas for the freshclam mirror service |
 | freshclamMirror.resources.limits | object | `{}` | The resources limits for the freshclam mirror containers |
 | freshclamMirror.resources.requests | object | `{}` | The requested resources for the freshclam mirror containers |
 | freshclamMirror.serviceAccount.automountServiceAccountToken | bool | `false` | Allows auto mount of ServiceAccountToken on the serviceAccount created. Can be set to false if pods using this serviceAccount do not need to use K8s API. |
@@ -166,7 +166,7 @@ secrets.
 | gateway.ingress.tls | list | `[]` |  |
 | gateway.podSecurityContext.enabled | bool | `true` | Pod security context enabled |
 | gateway.podSecurityContext.fsGroup | int | `101` | Pod security context fsGroup |
-| gateway.replicas | int | `1` | Number of replicas for the gateway |
+| gateway.replicaCount | int | `1` | Number of replicas for the gateway |
 | gateway.resources.limits | object | `{}` | The resources limits for the gateway containers |
 | gateway.resources.requests | object | `{}` | The requested resources for the gateway containers |
 | gateway.service.annotations | object | `{}` | Annotations set for service |
@@ -195,7 +195,7 @@ secrets.
 | grypeServer.logLevel | string | `"info"` | Log level for the grype-server service |
 | grypeServer.podSecurityContext.enabled | bool | `true` | Pod security context enabled |
 | grypeServer.podSecurityContext.fsGroup | int | `1001` | Pod security context fsGroup |
-| grypeServer.replicas | int | `1` | Number of replicas for the grype server service |
+| grypeServer.replicaCount | int | `1` | Number of replicas for the grype server service |
 | grypeServer.resources.limits | object | `{}` | The resources limits for the grype server containers |
 | grypeServer.resources.requests | object | `{}` | The requested resources for the grype server containers |
 | grypeServer.serviceAccount.automountServiceAccountToken | bool | `false` | Allows auto mount of ServiceAccountToken on the serviceAccount created. Can be set to false if pods using this serviceAccount do not need to use K8s API. |
@@ -252,7 +252,7 @@ secrets.
 | orchestrator.podSecurityContext.enabled | bool | `true` | Whether Orchestrator pod security context is enabled |
 | orchestrator.podSecurityContext.fsGroup | int | `1001` | Orchestrator pod security context fsGroup |
 | orchestrator.provider | string | `"aws"` | Which provider driver to enable. If enabling the Kubernetes provider ensure that the orchestrator serviceAccount section is configured to allow access to the Kubernetes API. |
-| orchestrator.replicas | int | `1` | Number of replicas for the Orchestrator service Currently 1 supported. |
+| orchestrator.replicaCount | int | `1` | Number of replicas for the Orchestrator service Currently 1 supported. |
 | orchestrator.resources.limits | object | `{}` | The resources limits for the orchestrator containers |
 | orchestrator.resources.requests | object | `{}` | The requested resources for the orchestrator containers |
 | orchestrator.scannerApiserverAddress | string | `""` | Address that scanners can use to reach back to the API server |
@@ -306,7 +306,7 @@ secrets.
 | swaggerUI.image.tag | string | `"v5.18.2"` | Swagger UI container tag |
 | swaggerUI.podSecurityContext.enabled | bool | `false` | Pod security context enabled |
 | swaggerUI.podSecurityContext.fsGroup | int | `101` | Pod security context fsGroup |
-| swaggerUI.replicas | int | `1` | Number of replicas for the swagger-ui service |
+| swaggerUI.replicaCount | int | `1` | Number of replicas for the swagger-ui service |
 | swaggerUI.resources.limits | object | `{}` | The resources limits for the swagger ui containers |
 | swaggerUI.resources.requests | object | `{}` | The requested resources for the swagger ui containers |
 | swaggerUI.serviceAccount.automountServiceAccountToken | bool | `false` | Allows auto mount of ServiceAccountToken on the serviceAccount created. Can be set to false if pods using this serviceAccount do not need to use K8s API. |
@@ -327,7 +327,7 @@ secrets.
 | trivyServer.image.tag | string | `"0.58.2"` | Trivy Server container tag |
 | trivyServer.podSecurityContext.enabled | bool | `true` | Pod security context enabled |
 | trivyServer.podSecurityContext.fsGroup | int | `1001` | Pod security context fsGroup |
-| trivyServer.replicas | int | `1` | Number of replicas for the trivy server service |
+| trivyServer.replicaCount | int | `1` | Number of replicas for the trivy server service |
 | trivyServer.resources.limits | object | `{}` | The resources limits for the trivy server containers |
 | trivyServer.resources.requests | object | `{}` | The requested resources for the trivy server containers |
 | trivyServer.serviceAccount.automountServiceAccountToken | bool | `false` | Allows auto mount of ServiceAccountToken on the serviceAccount created. Can be set to false if pods using this serviceAccount do not need to use K8s API. |
@@ -348,7 +348,7 @@ secrets.
 | ui.image.tag | string | `"latest"` | UI image tag |
 | ui.podSecurityContext.enabled | bool | `true` | Pod security context enabled |
 | ui.podSecurityContext.fsGroup | int | `101` | Pod security context fsGroup |
-| ui.replicas | int | `1` | Number of replicas for the UI service |
+| ui.replicaCount | int | `1` | Number of replicas for the UI service |
 | ui.resources.limits | object | `{}` | The resources limits for the UI containers |
 | ui.resources.requests | object | `{}` | The requested resources for the UI containers |
 | ui.serviceAccount.automountServiceAccountToken | bool | `false` | Allows auto mount of ServiceAccountToken on the serviceAccount created. Can be set to false if pods using this serviceAccount do not need to use K8s API. |
@@ -370,7 +370,7 @@ secrets.
 | uibackend.logLevel | string | `"info"` | Log level for the UI backend service |
 | uibackend.podSecurityContext.enabled | bool | `true` | Pod security context enabled |
 | uibackend.podSecurityContext.fsGroup | int | `1001` | Pod security context fsGroup |
-| uibackend.replicas | int | `1` | Number of replicas for the UI Backend service |
+| uibackend.replicaCount | int | `1` | Number of replicas for the UI Backend service |
 | uibackend.resources.limits | object | `{}` | The resources limits for the UI backend containers |
 | uibackend.resources.requests | object | `{}` | The requested resources for the UI backend containers |
 | uibackend.serviceAccount.automountServiceAccountToken | bool | `false` | Allows auto mount of ServiceAccountToken on the serviceAccount created. Can be set to false if pods using this serviceAccount do not need to use K8s API. |
@@ -391,7 +391,7 @@ secrets.
 | yaraRuleServer.image.tag | string | `"v0.3.0"` | Yara Rule Server container tag |
 | yaraRuleServer.podSecurityContext.enabled | bool | `false` | Pod security context enabled |
 | yaraRuleServer.podSecurityContext.fsGroup | int | `1001` | Pod security context fsGroup |
-| yaraRuleServer.replicas | int | `1` | Number of replicas for the Yara Rule Server service |
+| yaraRuleServer.replicaCount | int | `1` | Number of replicas for the Yara Rule Server service |
 | yaraRuleServer.resources.limits | object | `{}` | The resources limits for the Yara Rule Server containers |
 | yaraRuleServer.resources.requests | object | `{}` | The requested resources for the Yara Rule Server containers |
 | yaraRuleServer.serviceAccount.automountServiceAccountToken | bool | `false` | Allows auto mount of ServiceAccountToken on the serviceAccount created. Can be set to false if pods using this serviceAccount do not need to use K8s API. |
