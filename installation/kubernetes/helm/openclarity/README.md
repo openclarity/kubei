@@ -303,7 +303,7 @@ secrets.
 | swaggerUI.image.pullPolicy | string | `"IfNotPresent"` | Swagger UI image pull policy |
 | swaggerUI.image.registry | string | `"docker.io"` | Swagger UI container registry |
 | swaggerUI.image.repository | string | `"swaggerapi/swagger-ui"` | Swagger UI container repository |
-| swaggerUI.image.tag | string | `"v5.18.2"` | Swagger UI container tag |
+| swaggerUI.image.tag | string | `"v5.18.3"` | Swagger UI container tag |
 | swaggerUI.podSecurityContext.enabled | bool | `false` | Pod security context enabled |
 | swaggerUI.podSecurityContext.fsGroup | int | `101` | Pod security context fsGroup |
 | swaggerUI.replicas | int | `1` | Number of replicas for the swagger-ui service |
