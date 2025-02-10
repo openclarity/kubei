@@ -3,7 +3,7 @@ module github.com/openclarity/openclarity/scanner
 go 1.23.2
 
 require (
-	github.com/CycloneDX/cyclonedx-go v0.8.0
+	github.com/CycloneDX/cyclonedx-go v0.9.2
 	github.com/CycloneDX/cyclonedx-gomod v1.7.0
 	github.com/Portshift/dockle v0.3.2-0.20240611055957-53ff8586f9c7
 	github.com/anchore/clio v0.0.0-20250129210610-51c3fc1c68a4
