@@ -7,7 +7,7 @@ require (
 	github.com/CycloneDX/cyclonedx-gomod v1.7.0
 	github.com/Portshift/dockle v0.3.2-0.20240611055957-53ff8586f9c7
 	github.com/anchore/clio v0.0.0-20250129210610-51c3fc1c68a4
-	github.com/anchore/grype v0.78.0
+	github.com/anchore/grype v0.87.0
 	github.com/anchore/stereoscope v0.0.3-0.20240624202600-753b5576fe42
 	github.com/anchore/syft v1.5.0
 	github.com/aquasecurity/trivy v0.51.4
