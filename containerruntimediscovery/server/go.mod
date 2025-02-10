@@ -74,7 +74,7 @@ require (
 	github.com/dprotaso/go-yit v0.0.0-20220510233725-9ba8df137936 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
-	github.com/getkin/kin-openapi v0.127.0 // indirect
+	github.com/getkin/kin-openapi v0.129.0 // indirect
 	github.com/go-jose/go-jose/v3 v3.0.3 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -100,7 +100,6 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	github.com/invopop/yaml v0.3.1 // indirect
 	github.com/ipfs/go-cid v0.4.1 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
@@ -137,6 +136,8 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/oapi-codegen/oapi-codegen/v2 v2.3.1-0.20240915195924-0502e95d86bb // indirect
 	github.com/oapi-codegen/runtime v1.1.1 // indirect
+	github.com/oasdiff/yaml v0.0.0-20241210131133-6b86fb107d80 // indirect
+	github.com/oasdiff/yaml3 v0.0.0-20241210130736-a94c01f36349 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
 	github.com/openclarity/openclarity/plugins/sdk-go v1.1.3 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
