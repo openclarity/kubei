@@ -6,7 +6,7 @@ require (
 	github.com/Portshift/go-utils v0.0.0-20220421083203-89265d8a6487
 	github.com/anchore/syft v1.5.0
 	github.com/aptible/supercronic v0.2.30
-	github.com/go-viper/mapstructure/v2 v2.1.0
+	github.com/go-viper/mapstructure/v2 v2.2.1
 	github.com/google/go-cmp v0.6.0
 	github.com/onsi/gomega v1.35.1
 	github.com/openclarity/openclarity/api/client v1.1.3

@@ -16,7 +16,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/pricing v1.32.2
 	github.com/aws/smithy-go v1.22.2
 	github.com/docker/docker v26.1.5+incompatible
-	github.com/go-viper/mapstructure/v2 v2.1.0
+	github.com/go-viper/mapstructure/v2 v2.2.1
 	github.com/google/go-cmp v0.6.0
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/onsi/gomega v1.35.1

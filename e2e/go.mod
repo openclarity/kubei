@@ -4,7 +4,7 @@ go 1.23.2
 
 require (
 	github.com/fbiville/markdown-table-formatter v0.3.0
-	github.com/go-viper/mapstructure/v2 v2.1.0
+	github.com/go-viper/mapstructure/v2 v2.2.1
 	github.com/google/uuid v1.6.0
 	github.com/onsi/ginkgo/v2 v2.21.0
 	github.com/onsi/gomega v1.35.1
