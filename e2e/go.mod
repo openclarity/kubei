@@ -141,7 +141,7 @@ require (
 	github.com/charmbracelet/x/ansi v0.1.1 // indirect
 	github.com/cheggaaa/pb/v3 v3.1.5 // indirect
 	github.com/cloudflare/circl v1.5.0 // indirect
-	github.com/compose-spec/compose-go/v2 v2.1.2 // indirect
+	github.com/compose-spec/compose-go/v2 v2.4.1 // indirect
 	github.com/containerd/cgroups/v3 v3.0.3 // indirect
 	github.com/containerd/console v1.0.4 // indirect
 	github.com/containerd/containerd v1.7.21 // indirect
