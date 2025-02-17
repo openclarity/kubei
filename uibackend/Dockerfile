@@ -40,7 +40,7 @@ RUN --mount=type=cache,target=/go/pkg/mod \
 
 RUN xx-verify /bin/openclarity-ui-backend
 
-FROM alpine:3.21@sha256:21dc6063fd678b478f57c0e13f47560d0ea4eeba26dfc947b2a4f81f686b9f45
+FROM alpine:3.21@sha256:a8560b36e8b8210634f77d9f7f9efd7ffa463e380b75e2e74aff4511df3ef88c
 
 COPY --from=builder ["/bin/openclarity-ui-backend", "/bin/openclarity-ui-backend"]
 
