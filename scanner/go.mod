@@ -6,7 +6,7 @@ require (
 	github.com/CycloneDX/cyclonedx-go v0.8.0
 	github.com/CycloneDX/cyclonedx-gomod v1.7.0
 	github.com/Portshift/dockle v0.3.2-0.20240611055957-53ff8586f9c7
-	github.com/anchore/clio v0.0.0-20250129210610-51c3fc1c68a4
+	github.com/anchore/clio v0.0.0-20250211213408-22007329dafa
 	github.com/anchore/grype v0.78.0
 	github.com/anchore/stereoscope v0.0.3-0.20240624202600-753b5576fe42
 	github.com/anchore/syft v1.5.0
@@ -445,8 +445,8 @@ require (
 	golang.org/x/mod v0.22.0 // indirect
 	golang.org/x/net v0.34.0 // indirect
 	golang.org/x/oauth2 v0.23.0 // indirect
-	golang.org/x/sys v0.29.0 // indirect
-	golang.org/x/term v0.28.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/term v0.29.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
 	golang.org/x/time v0.8.0 // indirect
 	golang.org/x/tools v0.29.0 // indirect
